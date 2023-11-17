@@ -1,0 +1,11 @@
+Not Not
+The logical NOT operator (!) can be used to a flip a true to false and vice-versa.
+
+When confronted with non-boolean values, the operator will implicitly convert it to a boolean first and then flip it:
+
+console.log(!3); // false
+console.log(!""); // true
+So another way to go from a non-boolean value to its corresponding boolean value is by using the operator twice !!:
+
+console.log(!!3); // true
+console.log(!!""); // false

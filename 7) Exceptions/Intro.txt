@@ -1,0 +1,19 @@
+Exceptions
+An important tool in many programming languages is the ability to throw and catch exceptions. 
+An exception is an unexpected error in some function. The function may not know how to handle the exception so it is thrown. Throwing the error stops execution in the current function and goes back to the function that called it. The calling function can choose to catch the exception and handle it there. If it doesn't catch it, the exception will continue to be thrown up the call stack until it reaches the top-level of the program.
+
+Let's consider an example where we want to send an email to many users:
+CHECK IMAGE in EXCEPTIONS FOLDER
+
+This diagram starts at the top-left corner in main. 
+Here, the program calls emailUsers which will attempt to sendEmail for each user. 
+If the email fails to send, we'll throw an error. We'll catch this error in emailUsers where it will be logged. 
+Notice how we don't stop emailing other users when an error occurs for one! The error is thrown and handled in emailUsers, where it is logged. 
+Then emailUsers proceeeds to call sendEmail for the next two users successfully.
+
+In other scenarios, we may want to exit completely if an exception occurs. 
+Perhaps the exception indicates something very bad has happened that the program cannot recover from. 
+Throwing an exception from a lower function like sendEmail allows us to catch it on a higher-level and handle it there.
+An exception that cannot be recovered from is often referred to as a fatal exception.
+
+Ready to handle some exceptions? Let's jump into the code!

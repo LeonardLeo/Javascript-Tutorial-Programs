@@ -1,0 +1,13 @@
+LOGIC OPERATORS
+&& - and
+|| - or
+! - not
+
+STRING FUNCTIONS
+.replace()
+.length
+.toLowerCase()
+.toUpperCase()
+.split()
+.indexOf()
+.lastIndexOf()

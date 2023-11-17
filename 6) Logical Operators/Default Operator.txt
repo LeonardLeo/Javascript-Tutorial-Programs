@@ -1,0 +1,27 @@
+Truthy and Falsey
+In JavaScript, there are two boolean values: true and false.
+
+There are also a spectrum of values that are considered "truth-y" and "false-y". 
+
+Values that are considered "truth-y" will behave like true when used with logical operators.
+
+Let's consider the OR (||) operator with booleans:
+
+console.log(true || false); // true
+console.log(false || true); // true
+ Because at least one of these boolean values are true, the result is true.
+
+This works the same with truthy values!
+
+console.log(3 || false); // 3
+console.log(false || "something" || false); // something
+ The values 3 and "something" are behaving like true in these two statements! These two values are considered truthy.
+
+What other values are truthy? 
+
+To answer that, let's look at the falsey values. It is much easier to enumerate all the falsey values. The truthy values will be all the values in JavaScript that are not falsey.
+
+Falsey values include false, 0, "", null, undefined, and NaN. These values behave like false when encountering logical operators:
+
+console.log(0 || true); // true
+console.log("" || true); // true

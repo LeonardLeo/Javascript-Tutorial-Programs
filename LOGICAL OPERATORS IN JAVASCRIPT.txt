@@ -1,0 +1,5 @@
+1) AND Operator (&&)
+2) OR Operator (||)
+3) NOT Operator (!)
+4) GUARD Operator (&&)
+5) DEFAULT Operator (||)

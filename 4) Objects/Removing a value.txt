@@ -1,0 +1,10 @@
+We can also remove keys completely:
+
+const person = { 
+    name: "Bob"
+}
+
+delete person.name;
+
+console.log( person.name ); // undefined
+He lost his own name. How sad 

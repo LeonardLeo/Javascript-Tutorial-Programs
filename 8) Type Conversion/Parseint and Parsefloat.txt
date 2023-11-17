@@ -1,0 +1,33 @@
+PARSEINT AND PARSEFLOAT
+Strings can be converted to numbers with both parseInt and parseFloat. These functions will not only convert numbers, they will chop off any extra non-numeric characters at the end:
+
+            const result = parseInt("12px"); 
+
+            console.log(result); // 12
+
+This only works with non-numeric characters at the end of the string. If the string starts with non-numeric characters it will return NaN:
+
+            const result = parseInt("abc123");
+
+            console.log(result); // NaN
+
+NaN stands for "Not A Number", and you can learn more about it in the MDN Documentation. Quite perplexingly perhaps, typeof NaN will evaluate to "number". 
+A difference between the parseInt and parseFloat functions appears when working with floating point numbers:
+
+            const float = 12.24;
+
+            console.log(parseInt(float)); // 12
+
+            console.log(parseFloat(float)); // 12.24
+
+As might be suspected, parseFloat properly parses floating point numbers.
+
+
+
+TYPEOF
+The typeof operator is a convenient way of checking a value's type.
+It's easiest to demonstrate with a few examples:
+
+console.log( typeof 1 ); // number
+console.log( typeof "1" ); // string
+console.log( typeof {} ); // object

@@ -1,0 +1,11 @@
+TWO WAYS:
+    1) Explicit way     
+            a) Number()
+            b) Parseint()
+            c) Parsefloat()
+    2) Implicit way
+            a) Adding a plus sign (+)
+            b) Adding a minus sign (-)
+
+
+BEST PRACTICE: Use explicit conversion

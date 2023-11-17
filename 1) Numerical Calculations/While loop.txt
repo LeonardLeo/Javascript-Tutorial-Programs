@@ -1,0 +1,19 @@
+While Loop
+A new useful type of loop for this challenge is the while loop:
+
+while(b > 5) {
+    // do something
+}
+Below you can see we are simply providing a condition true that this statement will execute until that condition is false.
+
+Also helpful is the break statement:
+
+while(true) {
+    if(a > 2) {
+        // exit the loop
+        break;
+    }
+}
+Once break is hit, we will exit the loop. Even though the condition is true the break statement still gives us a way to exit the loop.
+
+ You can also exit a loop by using return, which will exit the function and return the value you designate.

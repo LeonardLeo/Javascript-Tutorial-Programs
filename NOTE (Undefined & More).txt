@@ -1,0 +1,17 @@
+    (1)
+When we create a variable but it has no value and we try to print it,
+we get the data type called:
+
+UNDEFINED
+
+
+EXAMPLE:
+1) const age = 
+2) const name = 
+
+etc
+
+
+    (2)
+In Javascript, the IN operator only works with the OBJECT data structure and cannot be implemented
+with ARRAY data structure.

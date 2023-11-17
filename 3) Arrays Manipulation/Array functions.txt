@@ -1,0 +1,12 @@
+.push() ------> .append()
+.includes() --> This method replaces the "IN" command in python for arrays
+.indexOf() ---> This method gets you the index of the FIRST occurence of an element
+.lastIndexOf()  This method gets you the index of the LAST occurence of an element
+.splice(startingIndex, no. elements to splice)
+.length
+.split()
+
+
+
+
+
